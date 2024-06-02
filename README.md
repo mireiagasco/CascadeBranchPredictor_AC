@@ -7,7 +7,7 @@ This project implements a cascaded branch predictor within the Simplescalar suit
 
 ## Installation Guide
 To run this project, the simple-scalar simulater is required.  You can check the project here: https://github.com/stevekuznetsov/simple-scalar/blob/master/README
-Once installed, change the files ```bpred.c```, ```bpred.h``` and ```sim-outorder.c``` of the downloaded project for the ones in the folder ```modifications```.
+Once installed, change the files ```bpred.c```, ```bpred.h``` and ```sim-outorder.c``` of the downloaded project for the ones we provide.
 
 Then you will be able to run simulations using the cascaded predictor indicating the predictor type as ```cascade```.
 
