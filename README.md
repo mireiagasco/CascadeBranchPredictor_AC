@@ -6,7 +6,7 @@ The cascaded branch predictor is a predictive model used in computer architectur
 This project implements a cascaded branch predictor within the Simplescalar suite.  The implementation of the cascaded predictor is based on the paper "The Cascaded Predictor: Economical and Adaptive Branch Target Prediction" by Karel Driesen and Urs Hölzle from the Department of Computer Science, University of California, which introduces a novel method for adaptive branch target prediction, optimizing prediction accuracy while minimizing resource usage.
 
 ## Installation Guide
-To run this project, the simple-scalar simulater is required.  You can check the project here: [https://github.com/stevekuznetsov/simple-scalar/blob/master/README]
+To run this project, the simple-scalar simulater is required.  You can check the project here: https://github.com/stevekuznetsov/simple-scalar/blob/master/README
 Once installed, change the files ```bpred.c```, ```bpred.h``` and ```sim-outorder.c``` of the downloaded project for the ones in the folder ```modifications```.
 
 Then you will be able to run simulations using the cascaded predictor indicating the predictor type as ```cascade```.
